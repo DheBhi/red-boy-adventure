@@ -86,9 +86,6 @@ public class comments {
 ////        g2.drawImage(tile[1].image, 0, 192, gp.tileSize, gp.tileSize, null);
 
 
-
-
-
 //            x += gp.tileSize;
 //
 //            if (col == gp.maxScreenCol) {
@@ -98,7 +95,6 @@ public class comments {
 //                y += gp.tileSize;
 //            }
 //        }
-
 
 
 //            g2.setColor(Color.white);
@@ -122,4 +118,110 @@ public class comments {
 //                    row++;
 //                }
 //            }
+
+    //        try {
+//
+//            tile[0] = new Tile();
+//            tile[0].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/grass.png"));
+//
+////            tile[0] = new Tile();
+////            tile[0].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/grass2.png"));
+//
+//            tile[1] = new Tile();
+//            tile[1].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/wall.png"));
+//            tile[1].collision = true;
+//
+////            tile[2] = new Tile();
+////            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/water.png"));
+////            tile[2].collision = true;
+//
+//            tile[2] = new Tile();
+//            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/water2.png"));
+//            tile[2].collision = true;
+//
+//            tile[3] = new Tile();
+//            tile[3].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/earth.png"));
+//
+////            tile[4] = new Tile();
+////            tile[4].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/star01.png"));
+////            tile[4].collision = true;
+//
+//            tile[4] = new Tile();
+//            tile[4].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/tree.png"));
+//            tile[4].collision = true;
+//
+////            tile[4] = new Tile();
+////            tile[4].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/tree2.png"));
+////            tile[4].collision = true;
+//
+//            tile[5] = new Tile();
+//            tile[5].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/sand.png"));
+//
+//            tile[6] = new Tile();
+//            tile[6].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/bushes02.png"));
+//            tile[6].collision = true;
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+
+
+//            try
+
+//    {
+//
+//            tile[0] = new Tile();
+//            tile[0].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/grass.png"));
+//
+////            tile[0] = new Tile();
+////            tile[0].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/grass2.png"));
+//
+//            tile[1] = new Tile();
+//            tile[1].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/wall.png"));
+//            tile[1].collision = true;
+//
+//            tile[2] = new Tile();
+//            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/water.png"));
+//            tile[2].collision = true;
+//
+//
+//            tile[3] = new Tile();
+//            tile[3].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/earth.png"));
+//
+////            tile[4] = new Tile();
+////            tile[4].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/star01.png"));
+////            tile[4].collision = true;
+//
+//            tile[4] = new Tile();
+//            tile[4].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/tree.png"));
+//            tile[4].collision = true;
+//
+//
+//            tile[5] = new Tile();
+//            tile[5].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/sand.png"));
+//
+////            tile[6] = new Tile();
+////            tile[6].image = ImageIO.read(getClass().getResourceAsStream("/Tiles/bushes02.png"));
+////            tile[6].collision = true;
+//
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+//        try {
+//            down1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_1.png"));
+//            down2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_2.png"));
+//            up1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_1.png"));
+//            up2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_2.png"));
+//            left1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_left_1.png"));
+//            left2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_left_2.png"));
+//            right1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_right_1.png"));
+//            right2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_right_2.png"));
+//        }catch (IOException e){
+//            e.printStackTrace();
+//        }
+//    }
 }
